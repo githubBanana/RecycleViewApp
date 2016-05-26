@@ -43,6 +43,7 @@ public class TopicAdapter extends BaseAdapter<TopicModel> implements View.OnClic
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_topic, parent, false);
+
         return new Holder(mAct, view);
     }
 

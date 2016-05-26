@@ -1,1 +1,1 @@
-include ':app', ':multiStateView'
+include ':app', ':multiStateView', ':multi-image-selector'
